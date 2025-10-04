@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Send Message To Base Blockchain</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="byline">by bituzin</div>
+
+<h1>Send Message To <span class="base">Base</span> Blockchain</h1>
+
+<button id="connectBtn">Connect Wallet</button>
+<br><br>
+<div id="wallet">Wallet not connected</div>
+<br>
+
+<input type="text" id="newMessage" placeholder="Enter Your message here!">
+<br><br><br>
+
+<button id="sendBtn">Send Your Message</button>
+<br>
+
+<div id="log">Logs appear here</div>
+<br>
+<div id="txLink"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

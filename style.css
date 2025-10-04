@@ -1,0 +1,74 @@
+body { 
+  font-family: Arial; 
+  padding:30px; 
+  max-width:400px; 
+  margin:auto; 
+  background:#f5f5f5; 
+}
+
+.byline { 
+  position:fixed; 
+  top:10px; 
+  left:10px; 
+  font-size:12px; 
+  color:#666; 
+}
+
+h1 {
+  font-size: 1.2rem;       
+  margin-bottom: 20px;
+  text-align: center;
+  white-space: nowrap;      
+  overflow: hidden;         
+  text-overflow: ellipsis;  
+}
+
+h1 span.base {
+  color: #3c8aff; /* oficjalny kolor Base */
+}
+
+input, button { 
+  width:100%; 
+  padding:8px; 
+  margin-top:10px; 
+  border-radius:6px; 
+  border:1px solid #ccc; 
+}
+
+button { 
+  border:none; 
+  background:#111; 
+  color:#fff; 
+  font-weight:bold; 
+  cursor:pointer; 
+  transition: background 0.2s; 
+}
+
+button:hover { 
+  background:#333; 
+}
+
+#wallet { 
+  margin-top:10px; 
+  word-break:break-word; 
+  font-weight:bold; 
+  text-align:center; 
+}
+
+#log { 
+  margin-top:15px; 
+  background:#fff; 
+  padding:10px; 
+  border-radius:6px; 
+  border:1px solid #ccc; 
+  min-height:50px; 
+  word-break:break-word; 
+  font-size: 10.5px;  
+}
+
+#txLink { 
+  margin-top:10px; 
+  word-break:break-word; 
+  text-align:center; 
+  font-size: 10.5px; 
+}
